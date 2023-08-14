@@ -25,7 +25,7 @@ class Users{
             if(err) throw err
             // CREATE TOKEN
             let token = createToken(user)
-            res.cookie("LegitUser", token,
+            res.cookie("TheLastUchiha", token,
             {
                 maxAge: 3600000,
                 httpOnly: true
