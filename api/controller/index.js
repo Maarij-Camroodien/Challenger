@@ -41,5 +41,5 @@ module.exports = {
 
 // routes.get('^/$|^/challenger', (req, res)=>{
 //     res.sendFile(path.resolve(__dirname, 
-//         "../static/html"))
+//         "../static/html/index.html"))
 // })
